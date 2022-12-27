@@ -79,13 +79,19 @@ def refresh(event):
     winnter.config(font=("Courier", 60))
     winnter.place(relx=0.9, rely=0.05+count, anchor="center")
     count=count+0.09
+    
+# Buttom
+button_1 = Button(root, text="START",font=("Courier", 50),bg= 'grey',activebackground='green')
+button_1.place(relx=0.4, rely=0.75, anchor="center")
+button_1.bind("<Button-1>", refresh)
+root.bind("<Return>")
+root.bind("<Return>", refresh)
 
-button_1 = Button(root, text="START")
-button_1.bind("<Return>",refresh)
-button_1.config(font=("Courier", 50))
-button_1.pack(ipadx=10, ipady=2, side=BOTTOM)
-
-
+button_2 = Button(root, text="Re-Draw",font=("Courier", 40),bg= 'grey',activebackground='green')
+button_2.place(relx=0.4, rely=0.9, anchor="center")
+button_2.bind("<Button-1>", retrial)
+root.bind("<Shift_R >")
+root.bind("<Shift_R >",retrial)
 
 ## adding bg music
 url = "Jingle-Bells-3.mp3"
