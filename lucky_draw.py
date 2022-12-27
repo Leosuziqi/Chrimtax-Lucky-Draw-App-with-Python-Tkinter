@@ -21,21 +21,21 @@ root.title('Christmas Dinner ')
 
 
 
-#w=bg.width()
-w=root.winfo_screenwidth()
-h=root.winfo_screenheight()
-#h=bg.height()
+#w = bg.width()
+w = root.winfo_screenwidth()
+h = root.winfo_screenheight()
+#h = bg.height()
 
 ## set background
 root.overrideredirect(True)
 root.configure(background='white')
-image=Image.open('cxtree.jpg')
+image = Image.open('cxtree.jpg')
 new_image = image.resize((int(w*4/5), h))
-bg=ImageTk.PhotoImage(new_image)
+bg = ImageTk.PhotoImage(new_image)
 
 
 root.geometry('%dx%d' % (w,h))
-label=Label(root,image=bg)
+label = Label(root,image=bg)
 label.place(x=0,y=0)
 
 Header = tkinter.Label(root, text="Winner: ")
@@ -43,7 +43,7 @@ Header.config(font=("Courier", 50))
 root.overrideredirect(True)
 Header.place(relx=0.9, rely=0.05, anchor="center")
 
-count=0.1
+count = 0.1
 def refresh(event):
     qty = 100
     global count
@@ -88,9 +88,9 @@ button_1.pack(ipadx=10, ipady=2, side=BOTTOM)
 
 
 ## adding bg music
-url="Jingle-Bells-3.mp3"
+url = "Jingle-Bells-3.mp3"
 pygame.mixer.init()
-m=pygame.mixer.music.load(url)
+m = pygame.mixer.music.load(url)
 pygame.mixer.music.play()
 
 
