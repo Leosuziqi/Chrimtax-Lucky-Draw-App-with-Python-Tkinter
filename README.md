@@ -7,6 +7,7 @@ Develop a user .exe application for Christmas party to generate the list of priz
 
 Additional Change Requirements from Users:
 1. Entry in Window to input the total number of guests
+2. Re-draw function to eliminate the last result and re-generate a diffent value
 
 ## Demo Video / Link
 
