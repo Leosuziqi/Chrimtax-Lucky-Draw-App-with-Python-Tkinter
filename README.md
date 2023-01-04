@@ -13,4 +13,4 @@ Additional Change Requirements from Users:
 ## Demo Video / Link
 
 ## Commit history
-![Commit History](Commit History.png)
+![Commit history](https://github.com/Leosuziqi/Chrimtax-Lucky-Draw-App-with-Python-Tkinter/blob/main/Commit history.jpg?raw=true)
