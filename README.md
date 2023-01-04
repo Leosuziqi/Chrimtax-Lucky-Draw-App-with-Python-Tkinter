@@ -12,4 +12,5 @@ Additional Change Requirements from Users:
 
 ## Demo Video / Link
 
-##Commit history
+## Commit history
+![Commit History](Commit History.png)
