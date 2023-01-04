@@ -114,11 +114,15 @@ def release(event):
 root = Tk()
 root.title('Christmas Dinner ')
 
-#Background image
+# Comment if want window_size adjustable
+#root.overrideredirect(True)
+
+#get screen size
 w = root.winfo_screenwidth()
 h = root.winfo_screenheight()
-root.overrideredirect(True)
 root.configure(background='white')
+
+#Background image
 image = Image.open('tree_hq.jpg')
 new_image = image.resize((int(w*4/5), h))
 bg = ImageTk.PhotoImage(new_image)
