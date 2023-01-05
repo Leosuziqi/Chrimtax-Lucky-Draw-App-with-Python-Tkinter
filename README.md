@@ -10,7 +10,8 @@ Additional Change Requirements from Users:
 2. Re-draw function to eliminate the last result and re-generate a diffent value
 3. Display GIF each time when click "Start" or "Re-draw"
 
-## Demo Video / Link
+## Demo 
+![](lucky.gif?raw=true)
 
 ## Commit history
 ![](Commit%20History.png?raw=true)
